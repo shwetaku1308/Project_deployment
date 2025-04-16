@@ -24,4 +24,3 @@ jobs:
         env: 
           DOCKER_USER: ${{ secrets.DOCKER_USER_NAME }}
         run: sudo docker run -it -d -p 8001:8001 --name titanic-fastapi-container $DOCKER_USER/titanic-fastapi:latest
-

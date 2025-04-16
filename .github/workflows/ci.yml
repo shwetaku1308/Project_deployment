@@ -101,4 +101,3 @@ jobs:
 
     - name: Logout to Docker hub
       run: docker logout
-
